@@ -1,0 +1,594 @@
+@font-face {
+    font-family: 'gigasans';
+    src: url('Fonts/giga-sans/Locomotype\ \ GigaSansMedium.otf');
+  }
+
+body {
+    font-family: gigasans;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    scroll-behavior: smooth;
+}
+/* That all for desktops */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: transparent;
+    width: 95%;
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.header img {
+    height: 50px;
+    margin-right: 200px;
+}
+.header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 10;
+    font-size: 20px;
+    font-family: gigasans;
+}
+.header .buttons a {
+    margin: 0 10px;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;   
+    font-family: gigasans;                                    
+}
+.header .buttons .join {
+    background-color: #d3d3d3;
+    color: black;
+}
+.header .buttons .contact {
+    background-color: #007bff;
+    color: white;
+}
+.main-content {
+    padding: 50px 20px;
+    background-color: #e0f7fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 650px;
+}
+#main-content-1{
+    height: 100%;
+    width: 50%;
+}
+#main-content-1 p{
+    margin-bottom: 40px;
+}
+#main-para-highlight{
+    color: #007bff;
+}
+#main-content-2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main-img-border{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+#main-img-border img{
+    height: 98%;
+    width: 97%;
+    border: 0.1px solid black;
+    border-radius: 15px;
+}
+.main-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: gigasans;
+    margin-left: 25px;
+}
+.main-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: gigasans;
+    margin-left: 25px;
+    opacity: 60%;
+}
+.main-content .buy-button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: gigasans;
+    margin-left: 23px;
+}
+.testimonial {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.testimonial .stars {
+    color: #007bff;
+    margin-right: 10px;
+    margin-top: 35px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.testimonial .text {
+    margin-left: 5px;
+}
+.testimonial .text h4{
+    font-family: gigasans;
+    opacity: 70%;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+#author{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+    overflow: hidden;
+}
+#home-card{
+    height: 150px;
+    width: 100%;
+}
+#author-inner{
+    height: 80px;
+    width: 100%;
+}
+#author-inner p{
+    font-size: 20px;
+    font-family: gigasans;
+    font-weight: 500;
+}
+#author-inner-1{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+#author-inner-1 img{
+    height: 30px;
+    width: 30px;
+}
+#author-inner-1 h4{
+    font-family: gigasans;
+    margin-left: 10px;
+}
+.winners-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+    height: 600px;
+}
+.winners-section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+#clints{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+#winners{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logos{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+}
+.logos img{
+    width: 100%;
+    height: 300px;
+}
+#about{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#about img{
+    height: 250px;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+#about h1{
+    font-family: gigasans;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+#about p{
+    font-family: gigasans;
+    opacity: 60%;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-size: 12px;
+    width: 80%;
+}
+#about a{
+    padding: 12px 18px;
+    background-color:  #007bff;
+    color: white;
+    margin-left: 50px;
+    margin-right: 100px;
+    text-decoration: none;
+    font-family: gigasans;
+    border-radius: 10px;
+}
+.more-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #e0f7fa;
+    height: 300px;
+}
+.more-info .text {
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.more-info .text h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: gigasans;
+    text-align: center;
+}
+.more-info .text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: gigasans;
+    text-align: center;
+}
+.more-info .join-button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: gigasans;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+.footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-family: gigasans;
+}
+.footer p{
+    font-family: gigasans;
+    opacity: 60%;
+}
+
+@media screen and (min-width: 1200px) {
+    #mobiles{
+        display: none;
+    }
+  }
+
+/* That all for desktops */
+
+/* That all for Mobiles */
+.mobileheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    height: 100px;
+    width: 95%;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.mobileheader img {
+    height: 100px;
+    margin-right: 100px;
+    margin-left: 25px;
+}
+.mobileheader .mobilebuttons a {
+    margin: 0 10px;
+    padding: 25px 50px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;   
+    font-family: gigasans;       
+    font-size: 30px;       
+    border-radius: 50px;                      
+}
+.mobileheader .mobilebuttons .mobilejoin {
+    background-color: #d3d3d3;
+    color: black;
+}
+.mobileheader .mobilebuttons .mobilecontact {
+    background-color: #007bff;
+    color: white;
+}
+.mobilemain-content {
+    padding: 50px 20px;
+    background-color: #e0f7fa;
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+    gap: 90px;
+}
+#mobilemain-content-1{
+    height: 1000px;
+    width: 100%;
+    margin-top: 50px;
+}
+#mobilemain-content-1 p{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+#mobilemain-para-highlight{
+    color: #007bff;
+}
+#mobilemain-content-2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mobilemain-img-border{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-left: 90px;
+    margin-right: 100px;
+}
+#mobilemain-img-border img{
+    height: 98%;
+    width: 97%;
+    border: 0.1px solid black;
+    border-radius: 15px;
+}
+.mobilemain-content h1 {
+    font-size: 110px;
+    margin-bottom: 20px;
+    font-family: gigasans;
+    margin-left: 15px;
+}
+.mobilemain-content p {
+    margin-bottom: 20px;
+    font-family: gigasans;
+    margin-left: 25px;
+    opacity: 60%;
+}
+.mobilemain-content .mobilebuy-button {
+    background-color: #007bff;
+    color: white;
+    padding: 25px 50px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: gigasans;
+    margin-left: 23px;
+}
+.mobiletestimonial {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.mobiletestimonial .mobilestars {
+    color: #007bff;
+    margin-right: 10px;
+    margin-top: 35px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.mobiletestimonial .mobiletext {
+    margin-left: 5px;
+}
+.mobiletestimonial .mobiletext h4{
+    font-family: gigasans;
+    opacity: 70%;
+    margin-left: 20px;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+#mobileauthor{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+#mobilehome-card{
+    height: 150px;
+    width: 100%;
+}
+#mobileauthor-inner{
+    height: 80px;
+    width: 100%;
+}
+#mobileauthor-inner p{
+    font-size: 20px;
+    font-family: gigasans;
+    font-weight: 500;
+}
+#mobileauthor-inner-1{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+#mobileauthor-inner-1 img{
+    height: 30px;
+    width: 30px;
+}
+#mobileauthor-inner-1 h4{
+    font-family: gigasans;
+    margin-left: 10px;
+}
+.mobilewinners-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+    height: 1500px;
+}
+.mobilewinners-section h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#mobileclints{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 60px;
+}
+#mobilewinners{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mobilelogos{
+    height: 100%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+}
+.mobilelogos img{
+    width: 100%;
+    height: 300px;
+}
+#mobileabout{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#mobileabout img{
+    height: 600px;
+    width: 800px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.mobilemore-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #e0f7fa;
+    height: 300px;
+}
+.mobilemore-info .mobiletext {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mobilemore-info .mobiletext h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: gigasans;
+    text-align: center;
+}
+.mobilemore-info .mobiletext p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: gigasans;
+    text-align: center;
+}
+.mobilemore-info .mobilejoin-button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: gigasans;
+}
+.mobilefooter {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+.mobilefooter a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-family: gigasans;
+    font-size: 30px;
+}
+.mobilefooter p{
+    font-family: gigasans;
+    opacity: 60%;
+    font-size: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    #desktops{
+        display: none;
+    }
+  }
+
+  /* For mobile devices */
+  @media screen and (max-width: 767px) {
+    #desktops{
+        display: none;
+    }
+  }
+
+/* That all for Mobiles */
